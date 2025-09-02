@@ -1,21 +1,28 @@
-<<<<<<< HEAD
-# notes_app
+Memo Mate
+Memo Mate is a secure, modern note-taking app built with Flutter. It features a clean, customizable user interface and seamless transitions to provide a smooth user experience. The app prioritizes privacy and convenience with features like secure private notes, voice input, and easy sharing.
 
-A new Flutter project.
+Key Features
+Customizable UI: Personalize notes with a vibrant neon color palette.
 
-## Getting Started
+Secure Notes: Protect sensitive notes with biometric or password authentication.
 
-This project is a starting point for a Flutter application.
+Voice-to-Text: Dictate notes hands-free using the built-in voice-to-text functionality.
 
-A few resources to get you started if this is your first Flutter project:
+Smooth Transitions: Enjoy a polished feel with smooth Hero animations between screens.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Local Storage: All notes are stored securely on the device using the Hive database, ensuring data privacy and offline access.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Notes_app
-Memo Mate is a secure, modern note-taking app with a clean, sci-fi-inspired UI. It features customizable neon colors and smooth transitions. Key features include secure private notes with biometric or password authentication, voice-to-text input, and local storage via Hive. It's a polished tool for convenient and private note management.
->>>>>>> bf72c573bcaec9cbb533386dee84cdd0b0b5b659
+Easy Sharing: Share your notes with other applications on your device with a single tap.
+
+Technical Stack
+Framework: Flutter
+
+Language: Dart
+
+Local Database: Hive
+
+Authentication: local_auth
+
+Speech: speech_to_text, flutter_tts
+
+Sharing: share_plus
